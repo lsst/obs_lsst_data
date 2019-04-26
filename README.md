@@ -1,2 +1,2 @@
-# calib_base_data_lsst
-A repository for storing versioned calibration data for LSST instruments.
+# obs_lsst_data
+A repository for storing versioned calibration data and camera geometry for LSST instruments.
