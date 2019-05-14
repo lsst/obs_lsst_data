@@ -22,7 +22,7 @@
 # - INSTRUME: auxTel
 # - DETECTOR: 0
 # - CALIBDATE: '2018-01-01T00:00:00'
-# - CALIB_ID: detector=0 calibDate=2018-01-01T00:00:00 ccd=0 ccdnum=0 filter=None
+# - CALIB_ID: raftName=RXX detectorName=RXX_S00 detector=0 calibDate=2018-01-01T00:00:00 ccd=0 ccdnum=0 filter=None
 # - DEFECTS_SCHEMA: Simple
 # - DEFECTS_SCHEMA_VERSION: 1
 # - DATE: '2019-05-14T00:56:26.760751'
