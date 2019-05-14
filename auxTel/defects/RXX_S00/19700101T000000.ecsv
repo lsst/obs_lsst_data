@@ -1,0 +1,33 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - name: x0
+#   unit: pix
+#   datatype: int32
+#   description: X coordinate of bottom left corner of box
+# - name: y0
+#   unit: pix
+#   datatype: int32
+#   description: Y coordinate of bottom left corner of box
+# - name: width
+#   unit: pix
+#   datatype: int32
+#   description: X extent of box
+# - name: height
+#   unit: pix
+#   datatype: int32
+#   description: Y extent of box
+# meta: !!omap
+# - OBSTYPE: defects
+# - INSTRUME: auxTel
+# - DETECTOR: RXX_S00
+# - CALIBDATE: '1970-01-01T00:00:00'
+# - CALIB_ID: detector=0 calibDate=1970-01-01T00:00:00 ccd=0 ccdnum=0 filter=None
+# - DEFECTS_SCHEMA: Simple
+# - DEFECTS_SCHEMA_VERSION: 1
+# - DATE: '2019-05-14T00:56:26.760751'
+# - CALIB_CREATION_DATE: '2019-05-14'
+# - CALIB_CREATION_TIME: 00:56:26
+# schema: astropy-2.0
+x0 y0 width height
+3562 0 509 2000
