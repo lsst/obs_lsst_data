@@ -1,6 +1,21 @@
+This directory contains filter transmission curves for the 65mm LATISS
+filters, with measurements and processing as described below.
+
+Data Processing
+---------------
+
 The data in this directory have been extracted from a spreadsheet of
 values provided along with the email description of how the scans were
-performed.
+performed.  After converting the spreadsheet to a CSV file, columns
+H-J,L-U were extracted.  The two measurements in the SDSSu_65mm~empty
+band were averaged together.  No normalization using column K
+performed in this band, as those values were all consistent with
+unity, and similar data is not available for the other bands.
+
+No negative values were clipped in any band, although they were likely
+caused by random noise during measurement.  For consistency with other
+transmission curves in this package, the wavelengths were converted to
+nanometers.
 
 
 Subject: Baader SDSS Filters
