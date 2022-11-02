@@ -4,11 +4,12 @@
 # - {name: wavelength, unit: nm, datatype: float32}
 # - {name: throughput, unit: -, datatype: float32}
 # meta: !!omap
-# - {MODE: DETECTOR}
+# - {MODE: CAMERA}
 # - {TYPE: transmission_curve}
 # - {CALIBDATE: '2022-10-05T00:00:00'}
 # - {INSTRUME: LATISS}
 # - {OBSTYPE: transmission_filter}
+# - {CALIBCLS: lsst.ip.isr.IntermediateTransmissionCurve}
 # - {DETECTOR: 0}
 # - {SOURCE: LSST_SDSS_Filters.xlsx}
 # - {FILTER: SDSSz_65mm~empty}

@@ -2,13 +2,14 @@
 # ---
 # datatype:
 # - {name: wavelength, unit: nm, datatype: float32}
-# - {name: throughput, unit: -, datatype: float32}
+# - {name: throughput, unit: '', datatype: float32}
 # meta: !!omap
-# - {MODE: DETECTOR}
+# - {MODE: CAMERA}
 # - {TYPE: transmission_curve}
 # - {CALIBDATE: '2022-10-05T00:00:00'}
 # - {INSTRUME: LATISS}
 # - {OBSTYPE: transmission_filter}
+# - {CALIBCLS: lsst.ip.isr.IntermediateTransmissionCurve}
 # - {DETECTOR: 0}
 # - {SOURCE: LSST_SDSS_Filters.xlsx}
 # - {FILTER: SDSSg_65mm~empty}
@@ -19,7 +20,7 @@
 # - __serialized_columns__:
 #     throughput:
 #       __class__: astropy.units.quantity.Quantity
-#       unit: !astropy.units.Unit {unit: -}
+#       unit: !astropy.units.Unit {unit: ''}
 #       value: !astropy.table.SerializedColumn {name: throughput}
 #     wavelength:
 #       __class__: astropy.units.quantity.Quantity
