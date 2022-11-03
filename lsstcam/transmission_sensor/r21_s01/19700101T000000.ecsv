@@ -6,11 +6,12 @@
 # - {name: efficiency, unit: '%', datatype: float32}
 # meta: !!omap
 # - {MODE: AMP}
-# - {TYPE: QE}
+# - {TYPE: transmission_sensor}
 # - {CALIBDATE: '1970-01-01T00:00:00'}
 # - {INSTRUME: LSSTCAM}
-# - {OBSTYPE: qe_curve}
+# - {OBSTYPE: transmission_sensor}
 # - {DETECTOR: 82}
+# - {CALIBCLS: lsst.ip.isr.IntermediateSensorTransmissionCurve}
 # - {PICKLEFILE: RaftRun10722.p}
 # - {CALIB_ID: 'raftName=R21 detectorName=S01 detector=82 calibDate=1970-01-01T00:00:00 ccd=82 ccdnum=82 filter=None'}
 # - {DATE: '2020-07-23T19:15:50.676808'}
