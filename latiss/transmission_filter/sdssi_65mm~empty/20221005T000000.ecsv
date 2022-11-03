@@ -10,10 +10,9 @@
 # - {INSTRUME: LATISS}
 # - {OBSTYPE: transmission_filter}
 # - {CALIBCLS: lsst.ip.isr.IntermediateFilterTransmissionCurve}
-# - {DETECTOR: 0}
 # - {SOURCE: LSST_SDSS_Filters.xlsx}
 # - {FILTER: SDSSi_65mm~empty}
-# - {CALIB_ID: 'raftName=RXX detectorName=RXX_S00 detector=0 calibDate=2022-10-05T00:00:00 ccd=0 ccdnum=0 filter=SDSSi_65mm~empty'}
+# - {CALIB_ID: 'calibDate=2022-10-05T00:00:00 filter=SDSSi_65mm~empty'}
 # - {DATE: '2022-10-21T17:15:58.984473'}
 # - {CALIB_CREATION_DATE: '2022-10-21'}
 # - {CALIB_CREATION_TIME: '17:15:58'}
