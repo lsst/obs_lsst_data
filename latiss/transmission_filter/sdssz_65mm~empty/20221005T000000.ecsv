@@ -19,7 +19,7 @@
 # - __serialized_columns__:
 #     throughput:
 #       __class__: astropy.units.quantity.Quantity
-#       unit: !astropy.units.Unit {unit: -}
+#       unit: !astropy.units.Unit {unit: ""}
 #       value: !astropy.table.SerializedColumn {name: throughput}
 #     wavelength:
 #       __class__: astropy.units.quantity.Quantity
