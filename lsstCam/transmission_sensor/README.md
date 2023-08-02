@@ -45,3 +45,7 @@ The following table shows the source of data for each of the rafts:
 | 19  | RTM-024 | R22 | 11351  | SLAC     |
 | 20  | RTM-025 | R21 | 10238  | BNL      |
 -------------------------------------------
+
+The input parquet file was converted to ecsv files in this repo by running:
+
+`python $OBS_LSST_DIR/python/lsst/obs/lsst/script/rewrite_lsstcam_qe_files_DM-40164.py`
