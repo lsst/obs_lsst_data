@@ -14,9 +14,9 @@
 # - {PARQUETFILE: qe_raft_allvalues_nircorrected_20230725.parquet}
 # - {CALIBCLS: lsst.ip.isr.IntermediateSensorTransmissionCurve}
 # - {CALIB_ID: 'raftName=R01 detectorName=S00 detector=0 calibDate=1970-01-01T00:00:00 ccd=0 ccdnum=0 filter=None'}
-# - {DATE: '2023-08-02T16:57:55.463895'}
-# - {CALIB_CREATION_DATE: '2023-08-02'}
-# - {CALIB_CREATION_TIME: '16:57:55'}
+# - {DATE: '2024-01-18T22:42:24.886269'}
+# - {CALIB_CREATION_DATE: '2024-01-18'}
+# - {CALIB_CREATION_TIME: '22:42:24'}
 # - __serialized_columns__:
 #     efficiency:
 #       __class__: astropy.units.quantity.Quantity
