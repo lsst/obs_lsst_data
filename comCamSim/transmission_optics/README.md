@@ -20,7 +20,7 @@ setup -r . -j
 In the obs_lsst package, one then runs the script to write the files
 using the througputs data:
 ```
-cd python ${OBS_LSST_DIR}/python/lsst/obs/lsst/script/write_comCamSim_optics_file.py
+python ${OBS_LSST_DIR}/python/lsst/obs/lsst/script/write_comCamSim_optics_file.py
 ```
 That script multiplies together the throughputs for the six mirror and
 lens componnents of the telescope and writes the result to a single

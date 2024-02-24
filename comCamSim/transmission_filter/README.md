@@ -19,5 +19,5 @@ setup -r . -j
 In the obs_lsst package, one then runs the script to write the files
 using the througputs data:
 ```
-cd python ${OBS_LSST_DIR}/python/lsst/obs/lsst/script/write_comCamSim_filter_files.py
+python ${OBS_LSST_DIR}/python/lsst/obs/lsst/script/write_comCamSim_filter_files.py
 ```
