@@ -3,5 +3,9 @@ The coefficents were provided by Adam Snyder (UCDavis, as of 2024) from laborato
 spots measurements.
 They are available in the Butler repository `/sdf/group/rubin/repo/main` at the USDF, in collections
 `u/snyder18/13199/crosstalk_analysis/20240406T213728Z` (if detId < 99) and `u/snyder18/13198/crosstalk_analysis/20240406T214205Z`.
+
+Outlier/bad crosstalk values are detected and replaced with the median for the detector type for the crosstalk location.
+Additional details can be found on DM-46116.
+
 The script used to retrieve the coefficients from these collections and make the `ecsv` files here can be found in:
 `$OBS_LSST_DIR/python/lsst/obs/lsst/script/write_non_linear_crosstalk_coeffs.py`
