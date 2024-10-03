@@ -12,8 +12,8 @@
 # meta:
 #   CALIBCLS: lsst.ip.isr.crosstalk.CrosstalkCalib
 #   CALIBDATE: '1970-01-01T00:00:00'
-#   CALIB_CREATION_DATE: '2024-09-10'
-#   CALIB_CREATION_TIME: '14:42:20.233077'
+#   CALIB_CREATION_DATE: '2024-10-02'
+#   CALIB_CREATION_TIME: '19:50:48.319309'
 #   CALIB_ID: instrument=LSSTCam raftName=R23 detectorName=R23_S11 detector=103 calibDate=1970-01-01T00:00:00
 #   CROSSTALK_RATIOS_UNITS: electron
 #   CROSSTALK_SCHEMA: Gen3 Crosstalk
