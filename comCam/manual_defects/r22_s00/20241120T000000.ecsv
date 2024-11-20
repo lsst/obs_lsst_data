@@ -18,19 +18,17 @@
 #   datatype: int32
 #   description: Y extent of box
 # meta: !!omap
-# - OBSTYPE: defects
-# - INSTRUME: LSSTComCam
-# - DETECTOR: 5
-# - CALIBDATE: '2024-11-18T00:00:00'
-# - CALIB_ID: raftName=R22 detectorName=R22_S01 detector=5
+# - OBSTYPE: manual_defects
+# - {CALIBCLS: lsst.ip.isr.Defects}
+# - {INSTRUME: ComCam}
+# - DETECTOR: 0
+# - CALIBDATE: '2024-11-19T09:00:00'
+# - CALIB_ID: raftName=R22 detectorName=R22_S00 detector=0
 # - DEFECTS_SCHEMA: Simple
 # - DEFECTS_SCHEMA_VERSION: 1
-# - DATE: '2024-11-18T00:56:26.760751'
-# - CALIB_CREATION_DATE: '2019-05-14'
-# - CALIB_CREATION_TIME: 00:56:26
+# - DATE: '2024-11-19T09:00:00'
+# - CALIB_CREATION_DATE: '2024-11-19'
+# - CALIB_CREATION_TIME: 09:00:00
 # schema: astropy-2.0
 x0 y0 width height
-508 0 1 2000
-1017 0 1 2000
-1526 0 1 2000
-2035 0 1 2000
+# Empty defect
