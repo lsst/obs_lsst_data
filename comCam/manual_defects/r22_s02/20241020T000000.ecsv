@@ -21,9 +21,9 @@
 # - OBSTYPE: manual_defects
 # - {CALIBCLS: lsst.ip.isr.Defects}
 # - {INSTRUME: ComCam}
-# - DETECTOR: 6
-# - CALIBDATE: '2024-11-19T09:00:00'
-# - CALIB_ID: raftName=R22 detectorName=R22_S20 detector=6
+# - DETECTOR: 2
+# - CALIBDATE: '2024-10-20T00:00:00'
+# - CALIB_ID: raftName=R22 detectorName=R22_S02 detector=2
 # - DEFECTS_SCHEMA: Simple
 # - DEFECTS_SCHEMA_VERSION: 1
 # - DATE: '2024-11-19T09:00:00'

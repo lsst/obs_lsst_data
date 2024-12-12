@@ -21,9 +21,9 @@
 # - OBSTYPE: manual_defects
 # - {CALIBCLS: lsst.ip.isr.Defects}
 # - {INSTRUME: ComCam}
-# - DETECTOR: 5
-# - CALIBDATE: '2024-11-19T09:00:00'
-# - CALIB_ID: raftName=R22 detectorName=R22_S12 detector=5 filter=None
+# - DETECTOR: 8
+# - CALIBDATE: '2024-10-20T00:00:00'
+# - CALIB_ID: raftName=R22 detectorName=R22_S22 detector=8
 # - DEFECTS_SCHEMA: Simple
 # - DEFECTS_SCHEMA_VERSION: 1
 # - DATE: '2024-11-19T09:00:00'
@@ -31,8 +31,4 @@
 # - CALIB_CREATION_TIME: 09:00:00
 # schema: astropy-2.0
 x0 y0 width height
-500 0 10 2000
-1008 0 15 2000
-1522 0 10 2000
-2031 0 10 2000
-# High CTI
+# Empty defect
