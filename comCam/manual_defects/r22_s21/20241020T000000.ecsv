@@ -1,0 +1,34 @@
+# %ECSV 0.9
+# ---
+# datatype:
+# - name: x0
+#   unit: pix
+#   datatype: int32
+#   description: X coordinate of bottom left corner of box
+# - name: y0
+#   unit: pix
+#   datatype: int32
+#   description: Y coordinate of bottom left corner of box
+# - name: width
+#   unit: pix
+#   datatype: int32
+#   description: X extent of box
+# - name: height
+#   unit: pix
+#   datatype: int32
+#   description: Y extent of box
+# meta: !!omap
+# - OBSTYPE: manual_defects
+# - {CALIBCLS: lsst.ip.isr.Defects}
+# - {INSTRUME: ComCam}
+# - DETECTOR: 7
+# - CALIBDATE: '2024-10-20T00:00:00'
+# - CALIB_ID: raftName=R22 detectorName=R22_S21 detector=7
+# - DEFECTS_SCHEMA: Simple
+# - DEFECTS_SCHEMA_VERSION: 1
+# - DATE: '2024-11-19T09:00:00'
+# - CALIB_CREATION_DATE: '2024-11-19'
+# - CALIB_CREATION_TIME: 09:00:00
+# schema: astropy-2.0
+x0 y0 width height
+# Empty defect
