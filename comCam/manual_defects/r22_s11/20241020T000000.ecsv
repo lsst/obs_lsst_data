@@ -1,35 +1,15 @@
-# %ECSV 0.9
+# %ECSV 1.0
 # ---
 # datatype:
-# - name: x0
-#   unit: pix
-#   datatype: int32
-#   description: X coordinate of bottom left corner of box
-# - name: y0
-#   unit: pix
-#   datatype: int32
-#   description: Y coordinate of bottom left corner of box
-# - name: width
-#   unit: pix
-#   datatype: int32
-#   description: X extent of box
-# - name: height
-#   unit: pix
-#   datatype: int32
-#   description: Y extent of box
-# meta: !!omap
-# - OBSTYPE: manual_defects
-# - {CALIBCLS: lsst.ip.isr.Defects}
-# - {INSTRUME: ComCam}
-# - DETECTOR: 4
-# - CALIBDATE: '2024-10-20T00:00:00'
-# - CALIB_ID: raftName=R22 detectorName=R22_S11 detector=4
-# - DEFECTS_SCHEMA: Simple
-# - DEFECTS_SCHEMA_VERSION: 1
-# - DATE: '2024-11-19T09:00:00'
-# - CALIB_CREATION_DATE: '2024-11-19'
-# - CALIB_CREATION_TIME: 09:00:00
+# - {name: x0, datatype: int64}
+# - {name: y0, datatype: int64}
+# - {name: width, datatype: int64}
+# - {name: height, datatype: int64}
+# meta: {CALIBCLS: lsst.ip.isr.defects.Defects, CALIBDATE: '2024-10-20T00:00:00', CALIB_ID: instrument=LSSTComCam raftName=R22 detectorName=R22_S11
+#     detector=4, DETECTOR: 4, DET_NAME: R22_S11, DET_SER: ITL-3800C-283, INSTRUME: ComCam, OBSTYPE: manual_defects, RAFTNAME: R22,
+#   SLOTNAME: S11, defects_SCHEMA: '', defects_VERSION: 2.0}
 # schema: astropy-2.0
 x0 y0 width height
+4064 0 8 2000
+4065 2000 7 2000
 3400 2000 15 2000
-# Dark column
