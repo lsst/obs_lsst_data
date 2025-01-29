@@ -1,0 +1,14 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: x0, datatype: int64}
+# - {name: y0, datatype: int64}
+# - {name: width, datatype: int64}
+# - {name: height, datatype: int64}
+# meta: {CALIBCLS: lsst.ip.isr.defects.Defects, CALIBDATE: '1970-01-01T00:00:00', CALIB_ID: instrument=LSSTComCam raftName=R22 detectorName=R22_S01
+#     detector=1, DETECTOR: 1, DET_NAME: R22_S01, DET_SER: ITL-3800C-251, INSTRUME: ComCam, OBSTYPE: manual_defects, RAFTNAME: R22,
+#   SLOTNAME: S01, defects_SCHEMA: '', defects_VERSION: 2.0}
+# schema: astropy-2.0
+x0 y0 width height
+0 1300 350 2700
+3650 3600 417 400
