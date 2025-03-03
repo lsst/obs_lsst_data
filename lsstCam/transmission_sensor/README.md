@@ -49,3 +49,11 @@ The following table shows the source of data for each of the rafts:
 The input parquet file was converted to ecsv files in this repo by running:
 
 `python $OBS_LSST_DIR/python/lsst/obs/lsst/script/rewrite_lsstcam_qe_files_DM-40164.py`
+
+Run 7 Updates
+=============
+
+With LSSTCam Run 7 testing, Aaron Roodman removed the overall illumination and used the 750 nm flat to measure the per-detector relative transmission.
+These updates can be applied on top of the previous updates with:
+
+`python $OBS_LSST_DIR/python/lsst/obs/lsst/script/rewrite_lsstcam_qe_files_DM-49283.py`
