@@ -1,0 +1,23 @@
+# %ECSV 1.0
+# ---
+# datatype:
+# - {name: x0, datatype: int64}
+# - {name: y0, datatype: int64}
+# - {name: width, datatype: int64}
+# - {name: height, datatype: int64}
+# meta: !!omap
+# - {OBSTYPE: manual_defects}
+# - {defects_SCHEMA: ''}
+# - {defects_VERSION: 2.0}
+# - {INSTRUME: LSSTCam}
+# - {RAFTNAME: R31}
+# - {SLOTNAME: S20}
+# - {DETECTOR: 132}
+# - {DET_NAME: R31_S20}
+# - {DET_SER: E2V-CCD250-222}
+# - {CALIB_ID: instrument=LSSTCam raftName=R31 detectorName=R31_S20 detector=132}
+# - {CALIBCLS: lsst.ip.isr.defects.Defects}
+# - {CALIBDATE: '1970-01-01T00:00:00'}
+# schema: astropy-2.0
+x0 y0 width height
+2970 2000 13 1086
