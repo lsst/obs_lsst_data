@@ -13,13 +13,13 @@
 # - {OBSTYPE: CROSSTALK}
 # - {CROSSTALK_SCHEMA: Gen3 Crosstalk}
 # - {CROSSTALK_VERSION: 1.2}
-# - {INSTRUME: LSST-UCDCam}
+# - {INSTRUME: UCD}
 # - {RAFTNAME: R21}
 # - {SLOTNAME: S01}
 # - {DETECTOR: 10}
 # - {DET_NAME: R21_S01}
 # - {DET_SER: E2V-CCD250-112-09}
-# - {CALIB_ID: 'instrument=LSST-UCDCam raftName=R21 detectorName=R21_S01 detector=10 calibDate=2025-09-16T16:00:44.258986'}
+# - {CALIB_ID: 'instrument=UCD raftName=R21 detectorName=R21_S01 detector=10 calibDate=2025-09-16T16:00:44.258986'}
 # - {CALIBCLS: lsst.ip.isr.crosstalk.CrosstalkCalib}
 # - {DETECTOR_NAME: R21_S01}
 # - {DETECTOR_SERIAL: E2V-CCD250-112-09}
