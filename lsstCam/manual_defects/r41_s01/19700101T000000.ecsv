@@ -20,3 +20,5 @@
 # - {CALIBDATE: '1970-01-01T00:00:00'}
 # schema: astropy-2.0
 x0 y0 width height
+2049 1366 14 14
+3495 3453 14 14
